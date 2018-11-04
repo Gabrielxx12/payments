@@ -13,15 +13,15 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name'      => 'Gabriel Lopes',
-            'email'     => 'gabriel@laravel.com',
-            'password'  => bcrypt('123456'),
+            'name'      => 'sdfdfdf Ldsfsdfd',
+            'email'     => 'dsfsdfsdf@sdfsdfsdfsdf',
+            'password'  => bcrypt('sdfsdfsdfsdfdf'),
         ]);
 
         User::create([
-            'name'      => 'Gabriel Silva',
-            'email'     => 'gabriel2@laravel.com',
-            'password'  => bcrypt('123456'),
+            'name'      => 'sdfsdfsdfsdf',
+            'email'     => 'sdfdsfsdfsdf',
+            'password'  => bcrypt('sdfdsfdfdfdfdsf'),
         ]);
     }
 }
